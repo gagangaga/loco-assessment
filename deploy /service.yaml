@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: loco-assessment-service
 spec:
-  type: ClusterIP # Or NodePort/LoadBalancer if needed for external access
+  type: ClusterIP  # Or NodePort/LoadBalancer if needed for external access
   ports:
     - protocol: TCP
       port: 80
