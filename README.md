@@ -20,6 +20,10 @@ This is a simple Flask web application that demonstrates basic web page renderin
 ## To Deploy in Kubernetes Cluster
 
 1.  Go to the deploy folder and run the below commands 
-1.  Apply: `kubectl apply -f deployment.yaml`, `kubectl apply -f service.yaml` , `kubectl apply -f hpa.yaml`
+2.  Apply: `kubectl apply -f deployment.yaml`, `kubectl apply -f service.yaml` , `kubectl apply -f hpa.yaml`
+
+## Command to pull docker image in our local 
+
+* docker pull gagangaga/loco-assessment:v2
 
 
