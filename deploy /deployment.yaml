@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loco-assessment-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: loco-assessment
+  template:
+    metadata:
+      labels:
+        app: loco-assessment
+    spec:
+      containers:
+        - name: loco-assessment-container
+          image: yourusername/loco-assessment:v1
+          ports:
+            - containerPort: 80
