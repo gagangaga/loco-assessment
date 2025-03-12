@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: loco-assessment-container
-          image: yourusername/loco-assessment:v1
+          image: yourusername/loco-assessment:v2
           ports:
             - containerPort: 80
