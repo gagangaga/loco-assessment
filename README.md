@@ -17,10 +17,9 @@ This is a simple Flask web application that demonstrates basic web page renderin
 * EKS cluster
 * `kubectl` configured
 
-## Deployment
+## To Deploy in Kubernetes Cluster
 
-1.  Clone: `git clone <repo>`
-2.  Go to the deploy folder and run the below commands 
-3.  Apply: `kubectl apply -f deployment.yaml`, `kubectl apply -f service.yaml` , `kubectl apply -f hpa.yaml`
+1.  Go to the deploy folder and run the below commands 
+1.  Apply: `kubectl apply -f deployment.yaml`, `kubectl apply -f service.yaml` , `kubectl apply -f hpa.yaml`
 
 
