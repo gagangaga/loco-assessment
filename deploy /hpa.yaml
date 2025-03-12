@@ -8,7 +8,7 @@ spec:
     kind: Deployment
     name: loco-assessment-deployment
   minReplicas: 3
-  maxReplicas: 10 # Adjust as needed
+  maxReplicas: 10 
   metrics:
     - type: Resource
       resource:
